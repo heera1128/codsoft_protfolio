@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background: linear-gradient(135deg, #eff4fd 0%, #d2e5f3 100%);
+    position: relative;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    position: absolute;
+    width: 100%;
+}
+
+nav ul {
+    display: flex; 
+    list-style: none; 
+}
+
+nav ul li {
+    margin: 0 20px;  
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(58, 141, 6);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #da1313;
+}
+
+.detel {
+    max-width: 600px;
+    margin: auto;
+    color: #212121;
+}
+
+.detel h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: rgb(58, 141, 6);
+}
+
+.detel p {
+    color: #555;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif; /* Change font for About Me description */
+    margin-bottom: 30px;
+}
+
+.detel a {
+    background: rgb(58, 141, 6);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.detel a:hover {
+    background: #da1313;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+    background: #d2e5f3;
+}
+
+.about-image {
+    width: 150px; 
+    border-radius: 50%; 
+    margin: 20px 0;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.skills-list li {
+    margin: 10px 15px;
+    padding: 10px 20px;
+    background: rgb(58, 141, 6);
+    color: white;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.skills-list li:hover {
+    background: #da1313;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    margin: 20px;
+    max-width: 300px;
+    text-align: left;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgb(58, 141, 6);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px;
+}
+
+.resume-button {
+    background: rgb(58, 141, 6);
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s;
+    margin-top: 10px; /* Added margin to move the button down */
+}
+
+.resume-button:hover {
+    background: #da1313;
+}
+body {
+    font-family: 'Arial', sans-serif; /* Default font */
+}
+
+.detel p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif; /* Change font for About Me description */
+}
+
+.project p {
+    font-family: 'Roboto', sans-serif; /* Change font for project descriptions */
+    line-height: 1.5;
+    padding: 5px;
+}
+
+
+footer {
+    background:rgb(58, 141, 6);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #da1313;
+}
